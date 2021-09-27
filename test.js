@@ -1,2 +1,2 @@
-const namee = 'yupsify';
-console.log(namee);
+const os = require('os');
+console.log(os.platform(), os.homedir());
